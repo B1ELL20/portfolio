@@ -1,6 +1,7 @@
 import { FaReact, FaHtml5, FaNodeJs, FaBootstrap, FaWordpress  } from 'react-icons/fa'
 import { SiElectron, SiExpress, SiTypescript, SiJavascript, SiNextdotjs } from 'react-icons/si'
 import { DiMysql, DiCss3 } from 'react-icons/di'
+
 import { 
     Background,
     Backimage,
@@ -12,6 +13,7 @@ import {
     KnowledgeContainer, 
     ListItem
 } from "./KnowledgeElements"
+import TitleSection from '../../TitleSection'
 
 import html from '../../../images/html.png'
 import css from '../../../images/css.png'
@@ -24,8 +26,8 @@ import mysql from '../../../images/mysql.png'
 import boots from '../../../images/bootstrap.png'
 import electron from '../../../images/electron.png'
 import express from '../../../images/express.png'
+
 import { useState } from 'react'
-import TitleSection from '../../TitleSection'
 
 const Knowledge = () => {
 

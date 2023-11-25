@@ -92,9 +92,8 @@ export const Card = styled.div`
     background-size: cover;
     border-left: 7px solid ${colors.main};
     padding: 60px 20px;
-    border-radius: 5px;
+    border-radius: 5px 150px 5px 5px;
     clip-path: polygon(0% 5%, 5% 0%, 100% 0%, 100% 95%, 95% 100%, 0% 100%);
-    box-shadow: 0px 0px 50px black;
 `;
 
 export const CardList = styled.ul`

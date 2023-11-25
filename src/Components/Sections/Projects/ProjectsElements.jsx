@@ -1,12 +1,10 @@
 import styled from "styled-components";
-
 import { colors } from "../../../Sentings/colors";
 
 import luimit from '../../../images/luimit.jpg'
 import sinergia from '../../../images/sinergia.jpg'
 import ctst from '../../../images/ctst.jpg'
 import bank from '../../../images/bank.png'
-
 import back from '../../../images/Back_service.png'
 
 const projectsImg = [luimit, sinergia, ctst, bank];
@@ -38,7 +36,6 @@ export const Project = styled.div`
     margin-bottom: 50px;
     clip-path: polygon(0% 5%, 5% 0%, 100% 0%, 100% 95%, 95% 100%, 0% 100%);
     border-radius: 5px;
-    border: 2px solid white;
     background-color: ${colors.base};
     cursor: pointer;
 
