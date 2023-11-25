@@ -10,7 +10,7 @@ Portfolio Profissional é um modelo de portfolio representando uma aplicação F
 O modelo consiste na apresentação pessoal, serviços e conhceimentos, além de seções de detalhamento, de contatos e redes sociais.
 
 ## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+![Mobile 1](https://github.com/B1ELL20/portfolio/blob/main/assets/mobile1.jpg) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
 
 ## Layout web
 ![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
