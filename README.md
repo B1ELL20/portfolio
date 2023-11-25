@@ -17,9 +17,6 @@ O modelo consiste na apresentação pessoal, serviços e conhceimentos, além de
 
 ![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
-
 # Tecnologias utilizadas
 
 ## Front end
