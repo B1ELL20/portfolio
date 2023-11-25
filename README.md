@@ -1,5 +1,5 @@
 # Portfolio Profissional
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/B1ELL20/portfolio/blob/main/LICENSE)) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/B1ELL20/portfolio/blob/main/LICENSE)
 
 # Sobre o projeto
 
