@@ -32,7 +32,7 @@ Pré-requisitos: npm / yarn
 
 Gabriel Dantas Costa Carneiro
 
-https://www.linkedin.com/
+www.linkedin.com/in/gabriel-dantas-costa-carneiro-056451230
 
 # Referências
 
