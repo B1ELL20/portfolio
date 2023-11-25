@@ -1,8 +1,42 @@
-# React + Vite
+# Portfolio Profissional
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/B1ELL20/portfolio/blob/main/LICENSE)) 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Sobre o projeto
 
-Currently, two official plugins are available:
+link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Portfolio Profissional é um modelo de portfolio representando uma aplicação Front end.
+
+O modelo consiste na apresentação pessoal, serviços e conhceimentos, além de seções de detalhamento, de contatos e redes sociais.
+
+## Layout mobile
+![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+
+## Layout web
+![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+
+![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+
+## Modelo conceitual
+![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+
+# Tecnologias utilizadas
+
+## Front end
+- HTML / CSS / JS
+- ReactJS
+- React Icons
+- Styled Components
+
+## Front end web
+Pré-requisitos: npm / yarn
+
+# Autor
+
+Gabriel Dantas Costa Carneiro
+
+https://www.linkedin.com/
+
+# Referências
+
+https://undraw.co
