@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-[link](https://b1ell20.github.io/portfolio/)
+https://b1ell20.github.io/portfolio/
 
 Portfolio Profissional é um modelo de portfolio representando uma aplicação Front end.
 
