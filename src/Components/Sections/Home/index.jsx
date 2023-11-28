@@ -25,7 +25,7 @@ const Home = () => {
                     <Text>
                         <TopTitle>Dev Full-Stack</TopTitle>
                         <Title>Gabriel Dantas</Title>
-                        <Description>"Sou só um vírus, querendo escapar, dos programadores da vida."</Description>
+                        <Description>"Sou só um vírus, querendo escapar dos programadores da vida."</Description>
                         <ButtonHome>Me conheça</ButtonHome>
                         <HomeLinks>
                             <ButtonLink onClick={() => {window.open('https://github.com/B1ELL20', '_blank')}}>

@@ -34,6 +34,18 @@ export const HomeBox = styled.header`
         height: unset;
         margin-bottom: 50px;
     }
+
+    @media (min-width: 1024px) and (max-width: 1580px) {
+
+        margin-bottom: 50px;
+    }
+
+    @media (min-width: 1580px) {
+
+        height: 80vh;
+        margin-bottom: 50px;
+        background-position: right;
+    }
 `;
 
 export const HomeContainer = styled.div`
@@ -84,19 +96,9 @@ export const ContainerText = styled.div`
 
 export const Text = styled.div`
 
-    width: 90%;
+    width: 95%;
     padding: 20px;
     text-align: center;
-
-    @media (max-width: 600px) {
-
-        width: 100%;
-    }
-
-    @media (min-width: 601px) and (max-width: 912px) {
-
-        width: 100%;
-    }
 `;
 
 export const TopTitle = styled.h2`
@@ -168,17 +170,6 @@ export const LinkIcon = styled.i`
     }
 `;
 
-export const ButtonDiv = styled.div`
-
-    position: absolute;
-    bottom: -10%;
-    left: 0;
-    width: 100%;
-    padding: 2px;
-    transition: 0.4s;
-    z-index: -1;
-`;
-
 export const LinkDescription = styled.p`
 
     padding: 10px;
@@ -190,6 +181,28 @@ export const LinkDescription = styled.p`
     @media (max-width: 600px) {
 
         font-size: 30px;
+    }
+`;
+
+export const ButtonDiv = styled.div`
+
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    width: 100%;
+    padding: 2px;
+    transition: 0.4s;
+    z-index: -1;
+`;
+
+export const ContainerMe = styled.div`
+
+    width: 50%;
+    overflow-x: hidden;
+
+    @media (max-width: 600px) {
+
+        display: none;
     }
 `;
 
@@ -223,16 +236,5 @@ export const ButtonLink = styled.button`
     &:hover ${LinkDescription}{
 
         color: ${colors.base};
-    }
-`;
-
-export const ContainerMe = styled.div`
-
-    width: 50%;
-    overflow-x: hidden;
-
-    @media (max-width: 600px) {
-
-        display: none;
     }
 `;

@@ -79,7 +79,7 @@ export const ProjectImg = styled.div`
 
 export const ProjectTitle = styled.h3`
 
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: 2px;
     width: 100%;
     text-align: center;
@@ -101,6 +101,7 @@ export const ProjectTitle = styled.h3`
     @media (min-width: 601px) and (max-width: 912px) {
 
         padding: 30px 0px;
+        font-size: 28px;
     }
 `;
 
