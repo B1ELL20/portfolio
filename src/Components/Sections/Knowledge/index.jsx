@@ -1,5 +1,5 @@
 import { FaReact, FaHtml5, FaNodeJs, FaBootstrap, FaWordpress  } from 'react-icons/fa'
-import { SiElectron, SiExpress, SiTypescript, SiJavascript, SiNextdotjs } from 'react-icons/si'
+import { SiElectron, SiExpress, SiTypescript, SiJavascript } from 'react-icons/si'
 import { DiMysql, DiCss3 } from 'react-icons/di'
 
 import { 
