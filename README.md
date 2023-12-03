@@ -13,9 +13,7 @@ O modelo consiste na apresentação pessoal, serviços e conhceimentos, além de
 ![Mobile 1](https://github.com/B1ELL20/portfolio/blob/main/assets/mobile1.jpg) ![Mobile 2](https://github.com/B1ELL20/portfolio/blob/main/assets/mobile2.jpg) ![Mobile 3](https://github.com/B1ELL20/portfolio/blob/main/assets/mobile3.jpg)
 
 ## Layout web
-![Web 1](https://github.com/B1ELL20/portfolio/blob/main/assets/web1.jpg)
-
-![Web 2](https://github.com/B1ELL20/portfolio/blob/main/assets/web2.jpg)
+![Web 1](https://github.com/B1ELL20/portfolio/blob/main/assets/web1.png)
 
 # Tecnologias utilizadas
 
