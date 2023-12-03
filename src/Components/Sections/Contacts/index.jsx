@@ -1,5 +1,5 @@
 import { FaWhatsapp } from 'react-icons/fa'
-import { AiOutlinePhone, AiOutlineMail, AiFillGithub, AiFillLinkedin, AiFillBehanceCircle, AiFillYoutube,AiFillInstagram } from 'react-icons/ai'
+import { AiOutlinePhone, AiOutlineMail, AiFillGithub, AiFillLinkedin, AiFillBehanceCircle,AiFillInstagram } from 'react-icons/ai'
 import { 
     BoxList,
     BoxMedia,
@@ -45,8 +45,7 @@ const Contacts = () => {
                         <MediaIcon onClick={() => {window.open('https://github.com/B1ELL20', '_blank')}}><AiFillGithub /></MediaIcon>
                         <MediaIcon onClick={() => {window.open('https://www.linkedin.com/in/gabriel-dantas-costa-carneiro-056451230/', '_blank')}}><AiFillLinkedin /></MediaIcon>
                         <MediaIcon onClick={() => {window.open('https://www.behance.net/bielldantas20', '_blank')}}><AiFillBehanceCircle /></MediaIcon>
-                        <MediaIcon><AiFillYoutube /></MediaIcon>
-                        <MediaIcon><AiFillInstagram /></MediaIcon>
+                        <MediaIcon onClick={() => {window.open('https://www.instagram.com/_littlecodegd/', '_blank')}}><AiFillInstagram /></MediaIcon>
                     </BoxMedia>
                 </ContactsList>
                 <Media>

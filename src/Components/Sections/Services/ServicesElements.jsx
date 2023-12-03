@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../../Sentings/colors";
+import { colors } from "../../../Settings/colors";
 import back from '../../../images/Back_service.png'
 
 export const ServiceBox = styled.section`

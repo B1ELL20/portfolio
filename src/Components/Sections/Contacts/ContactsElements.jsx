@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../../Sentings/colors";
+import { colors } from "../../../Settings/colors";
 
 export const ContactsBox = styled.section`
 
@@ -78,7 +78,7 @@ export const ContactDescription = styled.p`
 
     @media (max-width: 600px) {
 
-        font-size: 20px;
+        font-size: 18px;
     }
 
     @media (min-width: 601px) and (max-width: 912px) {
@@ -90,7 +90,7 @@ export const ContactDescription = styled.p`
 export const BoxMedia = styled.div`
 
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
     margin-right: auto;
     margin-top: 50px;
@@ -111,7 +111,7 @@ export const MediaIcon = styled.i`
 
     font-size: 50px;
     color: ${colors.main};
-    margin: 0px 10px;
+    margin: 0px 3%;
     transition: 0.5s;
     cursor: pointer;
 

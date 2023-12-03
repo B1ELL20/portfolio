@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../../Sentings/colors";
+import { colors } from "../../../Settings/colors";
 import background from '../../../images/background.png'
 
 export const HomeBox = styled.header`

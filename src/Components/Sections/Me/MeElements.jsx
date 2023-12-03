@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../../Sentings/colors";
+import { colors } from "../../../Settings/colors";
 import back from '../../../images/Back_me.png'
 
 export const MeBox = styled.section`
@@ -149,7 +149,7 @@ export const MeImg = styled.img`
 
     width: 80%;
     display: block;
-    border: 5px solid white;
+    border: 5px solid ${colors.base};
     box-shadow: 7px 7px 10px ${colors.light};
     border-radius: 5px;
 `;

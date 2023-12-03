@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../../Sentings/colors";
+import { colors } from "../../../Settings/colors";
 
 export const KnowledgeBox = styled.section`
 

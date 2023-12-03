@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../../../Sentings/colors";
+import { colors } from "../../../Settings/colors";
 
 import luimit from '../../../images/luimit.jpg'
 import sinergia from '../../../images/sinergia.jpg'
