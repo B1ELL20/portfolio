@@ -9,10 +9,7 @@ Portfolio Profissional é um modelo de portfolio representando uma aplicação F
 
 O modelo consiste na apresentação pessoal, serviços e conhceimentos, além de seções de detalhamento, de contatos e redes sociais.
 
-## Layout mobile
-![Mobile 1](https://github.com/B1ELL20/portfolio/blob/main/assets/mobile1.jpg) ![Mobile 2](https://github.com/B1ELL20/portfolio/blob/main/assets/mobile2.jpg) ![Mobile 3](https://github.com/B1ELL20/portfolio/blob/main/assets/mobile3.jpg)
-
-## Layout web
+## Layout 
 ![Web 1](https://github.com/B1ELL20/portfolio/blob/main/assets/web1.png)
 
 # Tecnologias utilizadas
