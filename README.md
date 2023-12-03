@@ -18,11 +18,26 @@ O modelo consiste na apresentação pessoal, serviços e conhceimentos, além de
 - HTML / CSS / JS
 - ReactJS
 - React Icons
+- React Scroll
 - Styled Components
 - Vite
 
 ## Front end web
 Pré-requisitos: npm / yarn
+
+```bash
+# Clonar repositório
+git clone https://github.com/B1ELL20/portfolio
+
+# Entrar na pasta do projeto
+cd portfolio
+
+# Instalar dependências
+npm install
+
+# Executar o projeto
+npm run dev
+```
 
 # Autor
 
