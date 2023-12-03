@@ -18,7 +18,7 @@ import me from '../../../images/me.jpg'
 const Me = () => {
   return (
     <>
-        <MeBox>
+        <MeBox id="me">
             <MeContainer>
                 <ContainerImg>
                     <MeImg src={me}/>

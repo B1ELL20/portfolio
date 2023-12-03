@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { colors } from "../../../Settings/colors";
 import background from '../../../images/background.png'
+import { Link as LinkS } from 'react-scroll'
 
 export const HomeBox = styled.header`
 
@@ -125,8 +126,9 @@ export const Description = styled.p`
     color: ${colors.light};
 `;
 
-export const ButtonHome = styled.button`
+export const ButtonHome = styled(LinkS)`
 
+    display: block;
     padding: 10px 40px;
     width: 100%;
     font-size: 30px;

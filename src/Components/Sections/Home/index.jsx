@@ -26,7 +26,13 @@ const Home = () => {
                         <TopTitle>Dev Full-Stack</TopTitle>
                         <Title>Gabriel Dantas</Title>
                         <Description>"Sou só um vírus, querendo escapar dos programadores da vida."</Description>
-                        <ButtonHome>Me conheça</ButtonHome>
+                        <ButtonHome 
+                            spy={true} 
+                            offset={-100} 
+                            smooth={true} 
+                            duration={500} 
+                            to="me">
+                            Me conheça</ButtonHome>
                         <HomeLinks>
                             <ButtonLink onClick={() => {window.open('https://github.com/B1ELL20', '_blank')}}>
                                 <LinkIcon><AiFillGithub /></LinkIcon>
