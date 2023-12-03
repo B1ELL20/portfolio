@@ -19,6 +19,7 @@ O modelo consiste na apresentação pessoal, serviços e conhceimentos, além de
 - ReactJS
 - React Icons
 - Styled Components
+- Vite
 
 ## Front end web
 Pré-requisitos: npm / yarn
