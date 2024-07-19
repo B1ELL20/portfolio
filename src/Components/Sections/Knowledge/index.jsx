@@ -40,7 +40,7 @@ const Knowledge = () => {
             <Background>
                 <Backimage src={listImg[idImg]} />
             </Background>
-            <TitleSection color={0} text={'Conhecimentos'} />
+            <TitleSection color={0} text={'Clientes Satisfeitos'} />
             <KnowledgeContainer>
                 <ContainerSection>
                     <ContainerList>

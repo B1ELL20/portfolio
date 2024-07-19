@@ -112,10 +112,11 @@ export const TopTitle = styled.h2`
 
 export const Title = styled.h1`
 
-    font-size: 65px;
+    font-size: 100px;
     font-weight: 700;
     color: ${colors.main};
     text-align: start;
+    letter-spacing: 3px;
 `;
 
 export const Description = styled.p`
@@ -123,6 +124,8 @@ export const Description = styled.p`
     margin: 30px 0px;
     font-size: 24px;
     font-weight: bold;
+    text-align: start;
+    line-height: 30px;
     color: ${colors.light};
 `;
 

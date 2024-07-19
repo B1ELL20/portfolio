@@ -23,25 +23,25 @@ const Home = () => {
             <HomeContainer>
                 <ContainerText>
                     <Text>
-                        <TopTitle>Dev Full-Stack</TopTitle>
-                        <Title>Gabriel Dantas</Title>
-                        <Description>"Sou só um vírus, querendo escapar dos programadores da vida."</Description>
+                        <TopTitle>Serviços de software</TopTitle>
+                        <Title>G3 Code</Title>
+                        <Description>Uma iniciativa dedicada a trabalhos de software de qualidade!</Description>
                         <ButtonHome 
                             spy={true} 
                             offset={-100} 
                             smooth={true} 
                             duration={500} 
                             to="me">
-                            Me conheça</ButtonHome>
+                            Contrate a G3</ButtonHome>
                         <HomeLinks>
                             <ButtonLink onClick={() => {window.open('https://github.com/B1ELL20', '_blank')}}>
                                 <LinkIcon><AiFillGithub /></LinkIcon>
-                                <LinkDescription>GitHub</LinkDescription>
+                                <LinkDescription>Instagram</LinkDescription>
                                 <ButtonDiv />
                             </ButtonLink>
                             <ButtonLink onClick={() => {window.open('https://www.linkedin.com/in/gabriel-dantas-costa-carneiro-056451230/', '_blank')}}>
                                 <LinkIcon><AiFillLinkedin /></LinkIcon>
-                                <LinkDescription>Linkedin</LinkDescription>
+                                <LinkDescription>Whatsapp</LinkDescription>
                                 <ButtonDiv />
                             </ButtonLink>
                             <ButtonLink onClick={() => {window.open('https://www.behance.net/bielldantas20', '_blank')}}>

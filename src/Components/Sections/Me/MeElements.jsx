@@ -76,7 +76,7 @@ export const Card = styled.div`
     padding: 10px;
     border: 3px solid ${colors.main};
     clip-path: polygon(0% 5%, 5% 0%, 100% 0%, 100% 95%, 95% 100%, 0% 100%);
-    margin-top: 20px;
+    margin-top: 40px;
 
         
     @media (max-width: 600px) {
@@ -147,9 +147,6 @@ export const ContainerImg = styled.div`
 
 export const MeImg = styled.img`
 
-    width: 80%;
+    width: 100%;
     display: block;
-    border: 5px solid ${colors.base};
-    box-shadow: 7px 7px 10px ${colors.light};
-    border-radius: 5px;
 `;

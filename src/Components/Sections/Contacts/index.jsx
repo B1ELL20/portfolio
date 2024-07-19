@@ -29,21 +29,19 @@ const Contacts = () => {
                         <ListContact>
                             <ItemContact>
                                 <IconContact><FaWhatsapp /></IconContact>
-                                <ContactDescription>(75)98888-7777</ContactDescription>
+                                <ContactDescription>(75)99999-9999</ContactDescription>
                             </ItemContact>
                             <ItemContact>
-                                <IconContact><AiOutlinePhone /></IconContact>
-                                <ContactDescription>(75)98888-7777</ContactDescription>
+                                <IconContact><AiFillInstagram /></IconContact>
+                                <ContactDescription>_g3code</ContactDescription>
                             </ItemContact>
                             <ItemContact>
                                 <IconContact><AiOutlineMail /></IconContact>
-                                <ContactDescription>Dantasbiell20@gmail.com</ContactDescription>
+                                <ContactDescription>g3codee@gmail.com</ContactDescription>
                             </ItemContact>
                         </ListContact>
                     </BoxList>
                     <BoxMedia>
-                        <MediaIcon onClick={() => {window.open('https://github.com/B1ELL20', '_blank')}}><AiFillGithub /></MediaIcon>
-                        <MediaIcon onClick={() => {window.open('https://www.linkedin.com/in/gabriel-dantas-costa-carneiro-056451230/', '_blank')}}><AiFillLinkedin /></MediaIcon>
                         <MediaIcon onClick={() => {window.open('https://www.behance.net/bielldantas20', '_blank')}}><AiFillBehanceCircle /></MediaIcon>
                         <MediaIcon onClick={() => {window.open('https://www.instagram.com/_littlecodegd/', '_blank')}}><AiFillInstagram /></MediaIcon>
                     </BoxMedia>

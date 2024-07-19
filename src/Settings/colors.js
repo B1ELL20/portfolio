@@ -2,6 +2,6 @@ export const colors = {
 
     base: '#fff',
     main: '#303e7c',
-    contrast: '#f1331b',
+    contrast: '#01dc88',
     light: '#585858'
 }

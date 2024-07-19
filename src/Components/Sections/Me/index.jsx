@@ -13,7 +13,7 @@ import {
     TextBox
 } from "./MeElements"
 import TitleSection from '../../TitleSection'
-import me from '../../../images/me.jpg'
+import g3 from '../../../images/Logog3code.jpg'
 
 const Me = () => {
   return (
@@ -21,25 +21,25 @@ const Me = () => {
         <MeBox id="me">
             <MeContainer>
                 <ContainerImg>
-                    <MeImg src={me}/>
+                    <MeImg src={g3}/>
                 </ContainerImg>
                 <ContainerText>
                     <TextBox>
-                        <TitleSection color={0} text={'Quem Sou?'}/>
-                        <Text>Me chamo Garbriel Dantas! Sou um desenvolvedor Full-Stack de React. Venho a alguns anos trilhando esse caminho da programação, até que me achei nos sites e aplicativos. Buscando cada vez mais conhecimento e maestria no que faço, sigo aprendendo e evoluindo cada vez mais.</Text>
+                        <TitleSection color={0} text={'Sobre a G3'}/>
+                        <Text>Voltada ao trabalho de excelência e produtividade, tem como foco principal o desenvolvimento de sites, mas também atua com outros serviços. Vem a 2 anos executando trabalhos de qualidade e eficiência.</Text>
                     </TextBox>
                     <Card>
                         <CardItem>
                             <ItemIcon><BsArrowReturnRight /></ItemIcon>
-                            <ItemContent>Dev Full-Stack</ItemContent>
+                            <ItemContent>Desenvolvimento WEB</ItemContent>
                         </CardItem>
                         <CardItem>
                             <ItemIcon><BsArrowReturnRight /></ItemIcon>
-                            <ItemContent>2 Anos de Experiência</ItemContent>
+                            <ItemContent>Apps</ItemContent>
                         </CardItem>
                         <CardItem>
                             <ItemIcon><BsArrowReturnRight /></ItemIcon>
-                            <ItemContent>Freelancer</ItemContent>
+                            <ItemContent>Desktop</ItemContent>
                         </CardItem>
                     </Card>
                 </ContainerText>
