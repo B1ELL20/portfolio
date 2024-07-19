@@ -9,13 +9,8 @@ Portfolio Profissional é um modelo de portfolio representando uma aplicação F
 
 O modelo consiste na apresentação pessoal, serviços e conhceimentos, além de seções de detalhamento, de contatos e redes sociais.
 
-## Layout mobile
-![Mobile 1](https://github.com/B1ELL20/portfolio/blob/main/assets/mobile1.jpg) ![Mobile 2](https://github.com/B1ELL20/portfolio/blob/main/assets/mobile2.jpg) ![Mobile 3](https://github.com/B1ELL20/portfolio/blob/main/assets/mobile3.jpg)
-
-## Layout web
-![Web 1](https://github.com/B1ELL20/portfolio/blob/main/assets/web1.jpg)
-
-![Web 2](https://github.com/B1ELL20/portfolio/blob/main/assets/web2.jpg)
+## Layout 
+![Web 1](https://github.com/B1ELL20/portfolio/blob/main/assets/web1.png)
 
 # Tecnologias utilizadas
 
@@ -23,10 +18,26 @@ O modelo consiste na apresentação pessoal, serviços e conhceimentos, além de
 - HTML / CSS / JS
 - ReactJS
 - React Icons
+- React Scroll
 - Styled Components
+- Vite
 
 ## Front end web
 Pré-requisitos: npm / yarn
+
+```bash
+# Clonar repositório
+git clone https://github.com/B1ELL20/portfolio
+
+# Entrar na pasta do projeto
+cd portfolio
+
+# Instalar dependências
+npm install
+
+# Executar o projeto
+npm run dev
+```
 
 # Autor
 
