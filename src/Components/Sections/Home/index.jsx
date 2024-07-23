@@ -1,4 +1,5 @@
-import { AiFillGithub, AiFillLinkedin, AiFillBehanceCircle } from 'react-icons/ai'
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import { FaWhatsapp } from 'react-icons/fa'
 import { 
     ButtonDiv,
     ButtonHome, 
@@ -23,15 +24,15 @@ const Home = () => {
             <HomeContainer>
                 <ContainerText>
                     <Text>
-                        <TopTitle>Serviços de software</TopTitle>
+                        <TopTitle>Softwares</TopTitle>
                         <Title>G3 Code</Title>
                         <Description>Uma iniciativa dedicada a trabalhos de software de qualidade!</Description>
                         <ButtonHome 
                             spy={true} 
                             offset={-100} 
                             smooth={true} 
-                            duration={500} 
-                            to="me">
+                            duration={1000} 
+                            to="contacts">
                             Contrate a G3</ButtonHome>
                         <HomeLinks>
                             <ButtonLink onClick={() => {window.open('https://github.com/B1ELL20', '_blank')}}>
@@ -39,14 +40,9 @@ const Home = () => {
                                 <LinkDescription>Instagram</LinkDescription>
                                 <ButtonDiv />
                             </ButtonLink>
-                            <ButtonLink onClick={() => {window.open('https://www.linkedin.com/in/gabriel-dantas-costa-carneiro-056451230/', '_blank')}}>
-                                <LinkIcon><AiFillLinkedin /></LinkIcon>
+                            <ButtonLink onClick={() => {window.open('https://wa.me/5575991359299', '_blank')}}>
+                                <LinkIcon><FaWhatsapp /></LinkIcon>
                                 <LinkDescription>Whatsapp</LinkDescription>
-                                <ButtonDiv />
-                            </ButtonLink>
-                            <ButtonLink onClick={() => {window.open('https://www.behance.net/bielldantas20', '_blank')}}>
-                                <LinkIcon><AiFillBehanceCircle /></LinkIcon>
-                                <LinkDescription>Behance</LinkDescription>
                                 <ButtonDiv />
                             </ButtonLink>
                         </HomeLinks>

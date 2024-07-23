@@ -1,5 +1,5 @@
 import { FaWhatsapp } from 'react-icons/fa'
-import { AiOutlinePhone, AiOutlineMail, AiFillGithub, AiFillLinkedin, AiFillBehanceCircle,AiFillInstagram } from 'react-icons/ai'
+import { AiOutlineMail, AiFillBehanceCircle,AiFillInstagram } from 'react-icons/ai'
 import { 
     BoxList,
     BoxMedia,
@@ -21,7 +21,7 @@ import media from '../../../images/contact.svg'
 const Contacts = () => {
   return (
     <>
-        <ContactsBox>
+        <ContactsBox id='contacts'>
             <TitleSection color={0} text={'Contatos'} />
             <ContactsContainer>
                 <ContactsList>
@@ -29,7 +29,7 @@ const Contacts = () => {
                         <ListContact>
                             <ItemContact>
                                 <IconContact><FaWhatsapp /></IconContact>
-                                <ContactDescription>(75)99999-9999</ContactDescription>
+                                <ContactDescription>(75)99135-9299</ContactDescription>
                             </ItemContact>
                             <ItemContact>
                                 <IconContact><AiFillInstagram /></IconContact>
@@ -42,7 +42,7 @@ const Contacts = () => {
                         </ListContact>
                     </BoxList>
                     <BoxMedia>
-                        <MediaIcon onClick={() => {window.open('https://www.behance.net/bielldantas20', '_blank')}}><AiFillBehanceCircle /></MediaIcon>
+                        <MediaIcon onClick={() => {window.open('https://wa.me/5575991359299', '_blank')}}><FaWhatsapp /></MediaIcon>
                         <MediaIcon onClick={() => {window.open('https://www.instagram.com/_littlecodegd/', '_blank')}}><AiFillInstagram /></MediaIcon>
                     </BoxMedia>
                 </ContactsList>

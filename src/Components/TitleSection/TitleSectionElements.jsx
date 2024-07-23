@@ -6,7 +6,7 @@ export const Title = styled.h2`
     font-weight: 400;
     padding: 50px 0px;
     text-align: center;
-    color: ${({color}) => (color === 0 ? '#303e7c' : '#fff')};
+    color: ${({color}) => (color === 0 ? '#081cb5' : '#fff')};
 
     @media (max-width: 600px) {
 

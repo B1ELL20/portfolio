@@ -36,6 +36,7 @@ export const Project = styled.div`
     margin-bottom: 50px;
     clip-path: polygon(0% 5%, 5% 0%, 100% 0%, 100% 95%, 95% 100%, 0% 100%);
     border-radius: 5px;
+    border: 4px solid #01ee88;
     background-color: ${colors.base};
     cursor: pointer;
 

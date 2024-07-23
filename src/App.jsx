@@ -9,6 +9,7 @@ import Projects from './Components/Sections/Projects'
 import Services from './Components/Sections/Services'
 
 import { TextQualities } from './Contents/ContentQualities'
+import { TextPLus } from './Contents/ContentPlus'
 
 function App() {
 
@@ -16,6 +17,18 @@ function App() {
     <>
       <Home />
       <Me />
+      {
+        TextPLus.map((obj, key) => {
+
+          return (<Qualities key={key} 
+                             reverse={obj.reverse}
+                             img={obj.img} 
+                             top={obj.toptitle}
+                             mid={obj.midtitle}
+                             desc={obj.description}
+                             />)
+        })
+      } 
       <Services />
       <Knowledge />
       <Projects />

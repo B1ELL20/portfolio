@@ -105,7 +105,7 @@ export const Text = styled.div`
 export const TopTitle = styled.h2`
 
     padding: 10px 0px;
-    font-size: 24px;
+    font-size: 28px;
     color: ${colors.contrast};
     text-align: start;
 `;
@@ -113,10 +113,15 @@ export const TopTitle = styled.h2`
 export const Title = styled.h1`
 
     font-size: 100px;
-    font-weight: 700;
+    font-weight: bold;
     color: ${colors.main};
     text-align: start;
     letter-spacing: 3px;
+    background-image: linear-gradient(to bottom, #01ee88, #081cb5);
+    -webkit-background-clip: text;
+    color: white;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 `;
 
 export const Description = styled.p`
@@ -126,7 +131,7 @@ export const Description = styled.p`
     font-weight: bold;
     text-align: start;
     line-height: 30px;
-    color: ${colors.light};
+    color: ${colors.main};
 `;
 
 export const ButtonHome = styled(LinkS)`
@@ -135,8 +140,9 @@ export const ButtonHome = styled(LinkS)`
     padding: 10px 40px;
     width: 100%;
     font-size: 30px;
+    font-weight: bold;
     color: ${colors.base};
-    background-color: ${colors.contrast};
+    background-color: ${colors.main};
     border: none;
     border-radius: 3px;
     transition: 0.1s;
