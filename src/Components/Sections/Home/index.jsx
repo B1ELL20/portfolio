@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import { AiFillInstagram } from 'react-icons/ai'
 import { FaWhatsapp } from 'react-icons/fa'
 import { 
     ButtonDiv,
@@ -25,7 +25,7 @@ const Home = () => {
                 <ContainerText>
                     <Text>
                         <TopTitle>Softwares</TopTitle>
-                        <Title>G3 Code</Title>
+                        <Title>G3 Codee</Title>
                         <Description>Uma iniciativa dedicada a trabalhos de software de qualidade!</Description>
                         <ButtonHome 
                             spy={true} 
@@ -35,8 +35,8 @@ const Home = () => {
                             to="contacts">
                             Contrate a G3</ButtonHome>
                         <HomeLinks>
-                            <ButtonLink onClick={() => {window.open('https://github.com/B1ELL20', '_blank')}}>
-                                <LinkIcon><AiFillGithub /></LinkIcon>
+                            <ButtonLink onClick={() => {window.open('https://www.instagram.com/_g3codee/', '_blank')}}>
+                                <LinkIcon><AiFillInstagram /></LinkIcon>
                                 <LinkDescription>Instagram</LinkDescription>
                                 <ButtonDiv />
                             </ButtonLink>

@@ -28,7 +28,7 @@ export const KnowledgeContainer = styled.div`
 export const Client = styled.div`
 
     width: 25%;
-    height: 100px;
+    height: 120px;
     background-image: url(${({logo}) => logo});
     background-size: contain;
     background-repeat: no-repeat;

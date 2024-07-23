@@ -1,5 +1,5 @@
 import { FaWhatsapp } from 'react-icons/fa'
-import { AiOutlineMail, AiFillBehanceCircle,AiFillInstagram } from 'react-icons/ai'
+import { AiOutlineMail, AiFillBehanceCircle, AiFillInstagram } from 'react-icons/ai'
 import { 
     BoxList,
     BoxMedia,
@@ -33,7 +33,7 @@ const Contacts = () => {
                             </ItemContact>
                             <ItemContact>
                                 <IconContact><AiFillInstagram /></IconContact>
-                                <ContactDescription>_g3code</ContactDescription>
+                                <ContactDescription>_g3codee</ContactDescription>
                             </ItemContact>
                             <ItemContact>
                                 <IconContact><AiOutlineMail /></IconContact>
@@ -43,7 +43,7 @@ const Contacts = () => {
                     </BoxList>
                     <BoxMedia>
                         <MediaIcon onClick={() => {window.open('https://wa.me/5575991359299', '_blank')}}><FaWhatsapp /></MediaIcon>
-                        <MediaIcon onClick={() => {window.open('https://www.instagram.com/_littlecodegd/', '_blank')}}><AiFillInstagram /></MediaIcon>
+                        <MediaIcon onClick={() => {window.open('https://www.instagram.com/_g3codee/', '_blank')}}><AiFillInstagram /></MediaIcon>
                     </BoxMedia>
                 </ContactsList>
                 <Media>
