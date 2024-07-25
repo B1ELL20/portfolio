@@ -18,6 +18,12 @@ import {
 } from "./HomeElements"
 
 const Home = () => {
+
+    const goWhatsapp = () => {
+
+        window.location.href = '#/thanks'
+    }
+
   return (
     <>
         <HomeBox>
@@ -40,7 +46,7 @@ const Home = () => {
                                 <LinkDescription>Instagram</LinkDescription>
                                 <ButtonDiv />
                             </ButtonLink>
-                            <ButtonLink onClick={() => {window.open('https://wa.me/5575991359299', '_blank')}}>
+                            <ButtonLink onClick={goWhatsapp}>
                                 <LinkIcon><FaWhatsapp /></LinkIcon>
                                 <LinkDescription>Whatsapp</LinkDescription>
                                 <ButtonDiv />

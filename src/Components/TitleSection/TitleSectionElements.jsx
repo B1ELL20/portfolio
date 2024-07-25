@@ -10,7 +10,7 @@ export const Title = styled.h2`
 
     @media (max-width: 600px) {
 
-        font-size: 45px;
+        font-size: 50px;
     }
 
     @media (min-width: 601px) and (max-width: 912px) {

@@ -71,6 +71,11 @@ export const DescServ = styled.p`
     letter-spacing: 2px;
     line-height: 24px;
     color: ${colors.light};
+    
+    @media (max-width: 600px) {
+
+        margin-top: 10px;
+    }
 `;
 
 export const QualitiesImg = styled.img`

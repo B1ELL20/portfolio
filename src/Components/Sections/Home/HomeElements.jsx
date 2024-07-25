@@ -8,17 +8,26 @@ export const HomeBox = styled.header`
     width: 100%;
     height: 100vh;
     background-image: url(${background});
-    background-size: contain;
+    background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
 
-    @media (max-width: 600px) {
+    @media (max-width: 370px) {
 
         display: block;
         background-size: cover;
         background-position: 45% 50%;
         height: unset;
         margin-bottom: 30px;
+    }
+
+    @media (min-width: 371px) and (max-width: 600px) {
+
+        display: block;
+        background-size: cover;
+        background-position: 45% 50%;
+        height: unset;
+        margin-bottom: 50px;
     }
 
     @media (min-width: 601px) and (max-width: 912px) {
@@ -122,6 +131,16 @@ export const Title = styled.h1`
     color: white;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @media (max-width: 376px) {
+
+        font-size: 80px;
+    }
+
+    @media (min-width: 377px) and (max-width: 600px) {
+
+        font-size: 90px;
+    }
 `;
 
 export const Description = styled.p`
@@ -152,6 +171,12 @@ export const ButtonHome = styled(LinkS)`
 
         transform: scale(1.05);
     }
+
+    @media (max-width: 370px) {
+
+        font-size: 26px;
+    }
+
 `;
 
 export const HomeLinks = styled.div`

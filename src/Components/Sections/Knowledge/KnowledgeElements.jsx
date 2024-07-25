@@ -18,11 +18,6 @@ export const KnowledgeContainer = styled.div`
     max-width: 1200px;
     margin: auto;
     overflow-y: auto;
-
-    @media (max-width: 600px) {
-
-        height: 500px;
-    }
 `;
 
 export const Client = styled.div`
@@ -37,6 +32,7 @@ export const Client = styled.div`
     @media (max-width: 600px) {
 
         width: 80%;
+        margin-top: 20px;
     }
 
     @media (min-width: 601px) and (max-width: 912px) {

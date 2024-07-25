@@ -21,6 +21,11 @@ export const MeContainer = styled.div`
     max-width: 1200px;
     padding: 20px 0px;
 
+    @media (max-width: 600px) {
+
+        padding: 20px 10px;
+    }
+
     @media (min-width: 601px) and (max-width: 912px) {
 
         justify-content: space-around;
@@ -64,7 +69,12 @@ export const Text = styled.p`
 
     @media (max-width: 600px) {
 
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    @media (min-width: 601px) and (max-width: 912px) {
+
+        font-size: 17px;
     }
 `;
 
@@ -83,6 +93,13 @@ export const Card = styled.div`
 
         display: block;
         margin-top: 50px;
+    }
+    
+    @media (min-width: 601px) and (max-width: 912px) {
+
+        display: block;
+        width: 90%;
+        margin-top: 40px;
     }
 `;
 

@@ -1,17 +1,17 @@
-import './App.css'
-import Qualities from './Components/Sections/Qualities'
-import Contacts from './Components/Sections/Contacts'
-import Footer from './Components/Sections/Footer'
-import Home from './Components/Sections/Home'
-import Knowledge from './Components/Sections/Knowledge'
-import Me from './Components/Sections/Me'
-import Projects from './Components/Sections/Projects'
-import Services from './Components/Sections/Services'
+import '../App.css'
+import Qualities from '../Components/Sections/Qualities'
+import Contacts from '../Components/Sections/Contacts'
+import Footer from '../Components/Sections/Footer'
+import Home from '../Components/Sections/Home'
+import Knowledge from '../Components/Sections/Knowledge'
+import Me from '../Components/Sections/Me'
+import Projects from '../Components/Sections/Projects'
+import Services from '../Components/Sections/Services'
 
-import { TextQualities } from './Contents/ContentQualities'
-import { TextPLus } from './Contents/ContentPlus'
+import { TextQualities } from '../Contents/ContentQualities'
+import { TextPLus } from '../Contents/ContentPlus'
 
-function App() {
+function HomePage() {
 
   return (
     <>
@@ -51,4 +51,4 @@ function App() {
   )
 }
 
-export default App
+export default HomePage

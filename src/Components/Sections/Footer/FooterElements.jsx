@@ -13,7 +13,7 @@ export const FooterContainer = styled.div`
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    padding: 10px 0px;
+    padding: 15px;
 `;
 
 export const Copy = styled.span`

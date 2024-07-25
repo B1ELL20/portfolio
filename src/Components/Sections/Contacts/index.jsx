@@ -19,6 +19,12 @@ import TitleSection from '../../TitleSection'
 import media from '../../../images/contact.svg'
 
 const Contacts = () => {
+
+    const goWhatsapp = () => {
+
+        window.location.href = '#/thanks'
+    }
+
   return (
     <>
         <ContactsBox id='contacts'>
@@ -29,7 +35,7 @@ const Contacts = () => {
                         <ListContact>
                             <ItemContact>
                                 <IconContact><FaWhatsapp /></IconContact>
-                                <ContactDescription>(75)99135-9299</ContactDescription>
+                                <ContactDescription>(75)99108-6600</ContactDescription>
                             </ItemContact>
                             <ItemContact>
                                 <IconContact><AiFillInstagram /></IconContact>
@@ -42,7 +48,7 @@ const Contacts = () => {
                         </ListContact>
                     </BoxList>
                     <BoxMedia>
-                        <MediaIcon onClick={() => {window.open('https://wa.me/5575991359299', '_blank')}}><FaWhatsapp /></MediaIcon>
+                        <MediaIcon onClick={goWhatsapp}><FaWhatsapp /></MediaIcon>
                         <MediaIcon onClick={() => {window.open('https://www.instagram.com/_g3codee/', '_blank')}}><AiFillInstagram /></MediaIcon>
                     </BoxMedia>
                 </ContactsList>
