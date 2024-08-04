@@ -9,24 +9,23 @@ import {
     QualitiesDivision
 } from "./QualitiesElements"
 
-const Qualities = ({ reverse, img, top, mid, desc }) => {
+const Qualities = ({ reverse, img, top, mid, desc, alt }) => {
   return (
-    <>
-        <QualitiesBox>
-            <QualitiesContainer reverse={reverse}>
-                <QualitiesDivision>
-                    <TextBox>
-                        <TopTitle>{top}</TopTitle>
-                        <MidTitle>{mid}</MidTitle>
-                        <DescServ>{desc}</DescServ>
-                    </TextBox>
-                </QualitiesDivision>
-                <QualitiesDivision>
-                    <QualitiesImg src={img}/>
-                </QualitiesDivision>
-            </QualitiesContainer>
-        </QualitiesBox>
-    </>
+
+    <QualitiesBox>
+        <QualitiesContainer reverse={reverse}>
+            <QualitiesDivision>
+                <TextBox>
+                    <TopTitle>{top}</TopTitle>
+                    <MidTitle>{mid}</MidTitle>
+                    <DescServ>{desc}</DescServ>
+                </TextBox>
+            </QualitiesDivision>
+            <QualitiesDivision>
+                <QualitiesImg src={img} alt={alt}/>
+            </QualitiesDivision>
+        </QualitiesContainer>
+    </QualitiesBox>
   )
 }
 

@@ -23,11 +23,7 @@ export const KnowledgeContainer = styled.div`
 export const Client = styled.div`
 
     width: 25%;
-    height: 120px;
-    background-image: url(${({logo}) => logo});
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 130px;
 
     @media (max-width: 600px) {
 
@@ -39,4 +35,12 @@ export const Client = styled.div`
 
         width: 45%;
     }
+`;
+
+export const ClientImg = styled.img`
+
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: ${({large}) => large};
 `;

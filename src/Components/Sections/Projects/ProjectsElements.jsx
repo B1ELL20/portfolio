@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import { colors } from "../../../Settings/colors";
 
-import luimit from '../../../images/luimit.jpg'
-import sinergia from '../../../images/sinergia.jpg'
-import ctst from '../../../images/ctst.jpg'
-import bank from '../../../images/bank.png'
-import back from '../../../images/Back_service.png'
+import luimit from '../../../images/luimit.webp'
+import sinergia from '../../../images/sinergia.webp'
+import ctst from '../../../images/ctst.webp'
+import bank from '../../../images/bank.webp'
+import back from '../../../images/Back_service.webp'
 
 const projectsImg = [luimit, sinergia, ctst, bank];
 

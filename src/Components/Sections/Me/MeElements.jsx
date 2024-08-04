@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { colors } from "../../../Settings/colors";
-import back from '../../../images/Back_me.png'
 
 export const MeBox = styled.section`
 
@@ -78,7 +77,7 @@ export const Text = styled.p`
     }
 `;
 
-export const Card = styled.div`
+export const Card = styled.ul`
 
     display: flex;
     justify-content: space-around;

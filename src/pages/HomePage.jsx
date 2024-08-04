@@ -16,36 +16,40 @@ function HomePage() {
   return (
     <>
       <Home />
-      <Me />
-      {
-        TextPLus.map((obj, key) => {
+      <main>
+        <Me />
+        {
+          TextPLus.map((obj, key) => {
 
-          return (<Qualities key={key} 
-                             reverse={obj.reverse}
-                             img={obj.img} 
-                             top={obj.toptitle}
-                             mid={obj.midtitle}
-                             desc={obj.description}
-                             />)
-        })
-      } 
-      <Services />
-      <Knowledge />
-      <Projects />
-      {
-        TextQualities.map((obj, key) => {
+            return (<Qualities key={key} 
+                              reverse={obj.reverse}
+                              img={obj.img} 
+                              top={obj.toptitle}
+                              mid={obj.midtitle}
+                              desc={obj.description}
+                              alt={obj.alt}
+                              />)
+          })
+        } 
+        <Services />
+        <Knowledge />
+        <Projects />
+        {
+          TextQualities.map((obj, key) => {
 
-          return (<Qualities key={key} 
-                             reverse={obj.reverse}
-                             img={obj.img} 
-                             top={obj.toptitle}
-                             mid={obj.midtitle}
-                             desc={obj.description}
-                             />)
-        })
-      } 
-      <hr/> 
-      <Contacts />
+            return (<Qualities key={key} 
+                              reverse={obj.reverse}
+                              img={obj.img} 
+                              top={obj.toptitle}
+                              mid={obj.midtitle}
+                              desc={obj.description}
+                              alt={obj.alt}
+                              />)
+          })
+        } 
+        <hr/> 
+        <Contacts />
+      </main>
       <Footer />
     </>
   )

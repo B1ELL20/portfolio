@@ -8,7 +8,7 @@ export const HomeBox = styled.header`
     width: 100%;
     height: 100vh;
     background-image: url(${background});
-    background-size: cover;
+    background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
 
@@ -34,7 +34,7 @@ export const HomeBox = styled.header`
 
         display: block;
         background-size: cover;
-        background-position: 40% 50%;
+        background-position: 45% 50%;
         height: unset;
         margin-bottom: 50px;
     }
@@ -42,12 +42,15 @@ export const HomeBox = styled.header`
     @media (min-width: 912px) and (max-width: 1024px) {
 
         height: unset;
+        background-size: cover;
         margin-bottom: 50px;
     }
 
     @media (min-width: 1024px) and (max-width: 1580px) {
 
         margin-bottom: 50px;
+        background-size: cover;
+        background-position: 45% 80%;
     }
 
     @media (min-width: 1580px) {
@@ -111,7 +114,7 @@ export const Text = styled.div`
     text-align: center;
 `;
 
-export const TopTitle = styled.h2`
+export const TopTitle = styled.h3`
 
     padding: 10px 0px;
     font-size: 28px;
@@ -160,6 +163,7 @@ export const ButtonHome = styled(LinkS)`
     width: 100%;
     font-size: 30px;
     font-weight: bold;
+    text-decoration: none;
     color: ${colors.base};
     background-color: ${colors.main};
     border: none;

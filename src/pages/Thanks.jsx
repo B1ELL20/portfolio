@@ -6,7 +6,7 @@ import {
     ThanksImage,  
     ThanksTitle
 } from '../Components/Thanks/ThanksElements'
-import logo from '../images/Logog3code.jpg'
+import logo from '../images/Logog3code.webp'
 
 function Thanks() {
 
@@ -28,7 +28,7 @@ function Thanks() {
   return (
     <ThanksBox>
         <ThanksContainer>
-            <ThanksImage src={logo}/>
+            <ThanksImage src={logo} alt='Logo da G3 Codee'/>
             <ThanksTitle>A G3 agradece seu interesse!</ThanksTitle>
             <ThanksButton onClick={goHome}>Voltar ao site</ThanksButton>
         </ThanksContainer>
