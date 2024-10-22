@@ -5,7 +5,7 @@ import luimit from '../../../images/luimit.webp'
 import sinergia from '../../../images/sinergia.webp'
 import ctst from '../../../images/ctst.webp'
 import bank from '../../../images/bank.webp'
-import back from '../../../images/Back_service.webp'
+import back from '../../../images/projects.png'
 
 const projectsImg = [luimit, sinergia, ctst, bank];
 
@@ -15,6 +15,13 @@ export const ProjectsBox = styled.section`
     margin: 50px 0px;
     background-color: ${colors.main};
     background-image: url(${back});
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (max-width: 600px) {
+
+        background-size: contain;
+    }
 `;
 
 export const ProjectsContainer = styled.div`

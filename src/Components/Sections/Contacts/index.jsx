@@ -43,7 +43,7 @@ const Contacts = () => {
                         </ItemContact>
                         <ItemContact>
                             <IconContact><AiOutlineMail /></IconContact>
-                            <ContactDescription>g3codee@gmail.com</ContactDescription>
+                            <ContactDescription>contato@g3codee.com.br</ContactDescription>
                         </ItemContact>
                     </ListContact>
                 </BoxList>

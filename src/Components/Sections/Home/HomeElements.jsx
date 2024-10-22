@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { colors } from "../../../Settings/colors";
 import background from '../../../images/background.png'
+import background_mob from '../../../images/mobile.png'
 import { Link as LinkS } from 'react-scroll'
 
 export const HomeBox = styled.header`
@@ -19,6 +20,7 @@ export const HomeBox = styled.header`
         background-position: 45% 50%;
         height: unset;
         margin-bottom: 30px;
+        background-image: url(${background_mob});
     }
 
     @media (min-width: 371px) and (max-width: 600px) {
@@ -28,6 +30,7 @@ export const HomeBox = styled.header`
         background-position: 45% 50%;
         height: unset;
         margin-bottom: 50px;
+        background-image: url(${background_mob});
     }
 
     @media (min-width: 601px) and (max-width: 912px) {
@@ -165,9 +168,9 @@ export const ButtonHome = styled(LinkS)`
     font-weight: bold;
     text-decoration: none;
     color: ${colors.base};
-    background-color: ${colors.main};
+    background-color: ${colors.contrast_main};
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     transition: 0.1s;
     cursor: pointer;
 

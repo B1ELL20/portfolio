@@ -1,14 +1,16 @@
 import styled from "styled-components";
 import { colors } from "../../../Settings/colors";
-import back from '../../../images/Back_service.webp'
+import back from '../../../images/back_service.png'
 
 export const ServiceBox = styled.section`
 
-    background-color: ${colors.main};
+    background-color: transparent;
     background-image: url(${back});
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     margin: 50px 0px;
+    padding: 100px 0px 200px 0px;
 `;
 
 export const ServiceContainer = styled.div`
@@ -20,7 +22,7 @@ export const ServiceContainer = styled.div`
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    padding-bottom: 50px;
+    margin-top: 50px;
 `;
 
 export const Service = styled.div`
