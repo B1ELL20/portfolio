@@ -2,7 +2,8 @@ import {
     Client,
     ClientImg,
     KnowledgeBox, 
-    KnowledgeContainer
+    KnowledgeContainer,
+    SliderContainer
 } from "./KnowledgeElements"
 import TitleSection from '../../TitleSection'
 
@@ -17,20 +18,34 @@ const Knowledge = () => {
     
     <KnowledgeBox>
         <TitleSection color={0} text={'Clientes Satisfeitos'} />
-        <KnowledgeContainer>
-            <Client>
-              <ClientImg src={logo_luimit} large='360px' alt="Logo da empresa Luimit Piscinas"/>
-            </Client>
-            <Client>
-              <ClientImg src={logo_ctst} large='340px' alt="Logo da  empresa CTST Treinamentos"/>
-            </Client>
-            <Client>
-              <ClientImg src={logo_sinergia} large='155px' alt="Logo da empresa Sinergia"/>
-            </Client>
-            <Client>
-              <ClientImg src={logo_sapulha} large='214px' alt="Logo da empresa Sapulha News"/>
-            </Client>
-        </KnowledgeContainer>
+        <SliderContainer>
+          <KnowledgeContainer>
+              <Client>
+                <ClientImg src={logo_luimit} large='360px' alt="Logo da empresa Luimit Piscinas"/>
+              </Client>
+              <Client>
+                <ClientImg src={logo_ctst} large='340px' alt="Logo da  empresa CTST Treinamentos"/>
+              </Client>
+              <Client>
+                <ClientImg src={logo_sinergia} large='155px' alt="Logo da empresa Sinergia"/>
+              </Client>
+              <Client>
+                <ClientImg src={logo_sapulha} large='214px' alt="Logo da empresa Sapulha News"/>
+              </Client>
+              <Client>
+                <ClientImg src={logo_luimit} large='360px' alt="Logo da empresa Luimit Piscinas"/>
+              </Client>
+              <Client>
+                <ClientImg src={logo_ctst} large='340px' alt="Logo da  empresa CTST Treinamentos"/>
+              </Client>
+              <Client>
+                <ClientImg src={logo_sinergia} large='155px' alt="Logo da empresa Sinergia"/>
+              </Client>
+              <Client>
+                <ClientImg src={logo_sapulha} large='214px' alt="Logo da empresa Sapulha News"/>
+              </Client>
+          </KnowledgeContainer>
+        </SliderContainer>
     </KnowledgeBox>
   )
 }

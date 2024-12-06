@@ -2,9 +2,13 @@ import styled from "styled-components";
 import { colors } from "../../../Settings/colors";
 
 import luimit from '../../../images/luimit.webp'
+import logo_luimit from '../../../images/logo_luimit.webp'
 import sinergia from '../../../images/sinergia.webp'
+import logo_sinergia from '../../../images/logo_sinergia.webp'
 import ctst from '../../../images/ctst.webp'
+import logo_ctst from '../../../images/logo_ctst.webp'
 import bank from '../../../images/bank.webp'
+import logo_bank from '../../../images/logo_bank.svg'
 import back from '../../../images/projects.png'
 
 const projectsImg = [luimit, sinergia, ctst, bank];
@@ -17,6 +21,7 @@ export const ProjectsBox = styled.section`
     background-image: url(${back});
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 50px 0px;
 
     @media (max-width: 600px) {
 
@@ -43,7 +48,6 @@ export const Project = styled.div`
     position: relative;
     transition: 0.2s;
     border-radius: 10px;
-    background-color: ${colors.base};
     cursor: pointer;
 
     @media (max-width: 600px) {
@@ -81,15 +85,73 @@ export const ProjectsLine = styled.div`
 
 export const RowProject = styled.div`
 
-    width: ${({ $sld })=>($sld === 1 ? '90%' : '15%')};
+    width: 100%;
+    height: 100%;
+
+    background-image: linear-gradient(to right, ${({ $sld })=>($sld === 1 ? 'rgba(0,0,0,0.4)' : 'transparent')}, transparent 20%), url(${({ $img, $count })=>($img === 1 && $count === 1? `${luimit}` : $img === 1 && $count != 1 ? `${logo_luimit}` : $img === 2 && $count === 2 ? `${sinergia}` : $img === 2 && $count != 2 ? `${logo_sinergia}` : $img === 3 && $count === 3 ? `${ctst}` : $img === 3 && $count != 3 ? `${logo_ctst}` : $img === 4 && $count === 4 ? `${bank}` : $img === 4 && $count != 4 ? `${logo_bank}`: 'none')});
+
+    background-size: ${({ $sld })=>($sld === 1 ? 'cover' : 'contain')};
+    background-position: ${({ $sld })=>($sld === 1 ? 'unset' : 'center')};
+    background-repeat: no-repeat;
+    background-color: white;
+
+    box-shadow: 0px 0px 0px white;
+    border-radius: 10px;
+    border: 4px solid ${colors.contrast};
+
+    transition: 0.5s;
+    cursor: pointer;
+
+    &:hover {
+
+        
+    }
+`;
+
+export const LinkProject = styled.div`
+
+    width: 100%;
+    height: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    color: transparent;
+    background-color: transparent;
+    border-radius: 0px 0px 10px 10px;
+    transition: 0.4s;
+`;
+
+export const BoxProject = styled.a`
+
+    width: ${({ $sld })=>($sld === 1 ? '90%' : '20%')};
     height: ${({ $sld })=>($sld === 1 ? '550px' : '40%')};
     position: absolute;
-    left: ${({ $sld })=>($sld === 2 ? '51%' : $sld === 3 ? '68%' : $sld === 4 ? '85%' : '0')};
+    left: ${({ $sld })=>($sld === 2 ? '38%' : $sld === 3 ? '59%' : $sld === 4 ? '80%' : '0')};
     z-index: ${({ $sld })=>($sld === 1 ? '0' : '3')};
-    background-color: ${({ $sld })=>($sld === 1 ? 'red' : 'yellow')};
-    border-radius: 10px;
-    border: 1px solid gray;
     transition: 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+
+        transform: scale(${({ $sld })=>($sld === 1 ? '1' : '1.05')});
+        transform: translateY(${({ $sld })=>($sld === 1 ? '0px' : '-40px')});
+
+        ${LinkProject} {
+
+            height: unset;
+            padding: ${({ $sld })=>($sld === 1 ? '0px' : '10px 0px')};
+            color: ${({ $sld })=>($sld === 1 ? 'transparent' : `${colors.base}`)};
+            background-color: ${({ $sld })=>($sld === 1 ? 'transparent' : `${colors.contrast}`)};
+        }
+
+        ${RowProject} {
+
+            border-radius: ${({ $sld })=>($sld === 1 ? '10px' : '10px 10px 0px 0px')};
+        }
+    }
 `;
 
 export const LineButtons = styled.div`
@@ -113,18 +175,18 @@ export const LineButton = styled.div`
 
     width: 40px;
     height: 40px;
-    color: ${colors.base};
-    background-color: ${colors.contrast_main};
+    color: ${colors.contrast_main};
+    background-color: ${colors.base};
     border-radius: 10px;
     padding: 10px;
     margin: 0px 5px;
     font-size: 20px;
-    opacity: 0.8;
+    opacity: 0.9;
     cursor: pointer;
 
     &:hover {
 
-        opacity: 1;
+        transform: scale(1.2);
     }
 `;
 

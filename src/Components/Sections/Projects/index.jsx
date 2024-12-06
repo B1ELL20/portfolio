@@ -1,13 +1,12 @@
 import { useState } from "react";
 import TitleSection from "../../TitleSection"
 import { 
+    BoxProject,
     ContainerButtons,
-    Destaque,
     LineButton,
     LineButtons,
+    LinkProject,
     Project,
-    ProjectImg,
-    ProjectTitle,
     ProjectsBox, 
     ProjectsContainer,
     ProjectsLine,
@@ -15,12 +14,12 @@ import {
     SlideBox
 } from "./ProjectsElements"
 
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaLink  } from "react-icons/fa";
 
 const Projects = () => {
 
     const [slideArray, SetArray] = useState([1, 2, 3, 4]);
-
+    const [cont, setCont] = useState(1);
 
     function moveRight() {
 
@@ -28,20 +27,13 @@ const Projects = () => {
         var array = [];
 
         slideArray.forEach((id) => {
-
-            if (id === 1) {
-
-                number = 4;
-
-            } else {
-
-                number = id - 1;
-            }
-
+            
+            id === 1 ? number = 4 : number = id - 1;
             array.push(number);
         })
 
         SetArray(array);
+        setCont(cont < 4 ? cont + 1 : 1);
     }
 
     function moveLeft() {
@@ -51,26 +43,19 @@ const Projects = () => {
 
         slideArray.forEach((id) => {
 
-            if (id === 4) {
-
-                number = 1;
-
-            } else {
-
-                number = id + 1;
-            }
-
+            id === 4 ? number = 1 : number = id + 1;
             array.push(number);
         })
 
         SetArray(array);
+        setCont(cont > 1 ? cont - 1 : 4);
     }
 
   return (
     
     <ProjectsBox>
 
-        <TitleSection text={'Projetos'}/>
+        <TitleSection text={'Projetos desenvolvidos'}/>
 
         <ProjectsContainer>
 
@@ -85,10 +70,22 @@ const Projects = () => {
 
             <ProjectsLine>
                 <SlideBox>
-                    <RowProject id="1" $sld={slideArray[0]}></RowProject>
-                    <RowProject id="2" $sld={slideArray[1]}></RowProject>
-                    <RowProject id="3" $sld={slideArray[2]}></RowProject>
-                    <RowProject id="4" $sld={slideArray[3]}></RowProject>
+                    <BoxProject $count={cont} $sld={slideArray[0]} href='https://luimit.com' target="_blank">
+                        <RowProject $count={cont} $sld={slideArray[0]} $img={1}></RowProject>
+                        <LinkProject>Acesse o Projeto! <FaLink /></LinkProject>
+                    </BoxProject>
+                    <BoxProject $count={cont} $sld={slideArray[1]} href='https://sinergiasee.com.br' target="_blank">
+                        <RowProject $count={cont} $sld={slideArray[1]} $img={2}></RowProject>
+                        <LinkProject>Acesse o Projeto! <FaLink /></LinkProject>
+                    </BoxProject>
+                    <BoxProject $count={cont} $sld={slideArray[2]} href='https://www.ctsttreinamentosfsa.com' target="_blank">
+                        <RowProject $count={cont} $sld={slideArray[2]} $img={3}></RowProject>
+                        <LinkProject>Acesse o Projeto! <FaLink /></LinkProject>
+                    </BoxProject>
+                    <BoxProject $count={cont} $sld={slideArray[3]} href='https://b1ell20.github.io/bank/' target="_blank">
+                        <RowProject $count={cont} $sld={slideArray[3]} $img={4}></RowProject>
+                        <LinkProject>Acesse o Projeto! <FaLink /></LinkProject>
+                    </BoxProject>
                 </SlideBox>
             </ProjectsLine>
 

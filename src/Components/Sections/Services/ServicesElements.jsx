@@ -34,7 +34,7 @@ export const Service = styled.div`
     padding: 60px 15px 20px 15px;
     border-radius: 5px;
     border-bottom: 5px solid ${colors.contrast};
-    transition: 0.2s;
+    transition: 0.5s;
     cursor: pointer;
 
     @media (max-width: 600px) {

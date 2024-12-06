@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const KnowledgeBox = styled.section`
 
@@ -8,22 +8,41 @@ export const KnowledgeBox = styled.section`
     margin-bottom: 100px;
 `;
 
-export const KnowledgeContainer = styled.div`
+export const SliderContainer = styled.div`
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    overflow-y: auto;
+    overflow: hidden;
+`;
+
+const scroll = keyframes`
+
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-300px * 4));
+    }
+`;
+
+export const KnowledgeContainer = styled.div`
+
+    width: calc(300px * 8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation-name: ${scroll};
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
 `;
 
 export const Client = styled.div`
 
-    width: 25%;
+    width: 300px;
     height: 130px;
+    margin: 0px 20px;
 
     @media (max-width: 600px) {
 
