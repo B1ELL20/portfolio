@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { colors } from "../../../Settings/colors";
 
 import luimit from '../../../images/luimit.webp'
@@ -25,7 +25,26 @@ export const ProjectsBox = styled.section`
 
     @media (max-width: 600px) {
 
-        background-size: contain;
+        background-size: cover;
+        background-position: center;
+    }
+`;
+
+const flutua = keyframes`
+
+    0% {
+
+        transform: translateY(0);
+    }
+
+    50% {
+
+        transform: translateY(30px);
+    }
+
+    100% {
+
+        transform: translateY(0);
     }
 `;
 
@@ -39,7 +58,12 @@ export const ProjectsContainer = styled.div`
     margin: auto;
     padding: 50px 0px;
     position: relative;
+
+    animation-name: ${flutua};
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 `;
+
 
 export const Project = styled.div`
 
@@ -52,8 +76,8 @@ export const Project = styled.div`
 
     @media (max-width: 600px) {
 
-        width: 90%;
-        height: unset;
+        width: 100%;
+        height: 700px;
     }
 
     @media (min-width: 601px) and (max-width: 912px) {
@@ -70,6 +94,11 @@ export const SlideBox = styled.div`
     display: flex;
     align-items: center;
     overflow: hidden;
+
+    @media (max-width: 600px) {
+
+        flex-direction: column;
+    }
 `;
 
 export const ProjectsLine = styled.div`
@@ -79,7 +108,7 @@ export const ProjectsLine = styled.div`
     display: flex;
     align-items: center;
     position: absolute;
-    top: 0;
+    top: 0%;
     left: 0%;
 `;
 
@@ -102,9 +131,10 @@ export const RowProject = styled.div`
     transition: 0.5s;
     cursor: pointer;
 
-    &:hover {
+    @media (max-width: 600px) {
 
-        
+        background-size: contain;
+        background-position: center;
     }
 `;
 
@@ -138,6 +168,8 @@ export const BoxProject = styled.a`
 
         transform: scale(${({ $sld })=>($sld === 1 ? '1' : '1.05')});
         transform: translateY(${({ $sld })=>($sld === 1 ? '0px' : '-40px')});
+        box-shadow: 0px 0px 10px black;
+        z-index: ${({ $sld })=>($sld === 1 ? '1' : '999')};
 
         ${LinkProject} {
 
@@ -152,6 +184,14 @@ export const BoxProject = styled.a`
             border-radius: ${({ $sld })=>($sld === 1 ? '10px' : '10px 10px 0px 0px')};
         }
     }
+
+    @media (max-width: 600px) {
+
+        width: ${({ $sld })=>($sld === 1 ? '90%' : '60%')};
+        height: ${({ $sld })=>($sld === 1 ? '200px' : '16%')};
+        top: ${({ $sld })=>($sld === 2 ? '30%' : $sld === 3 ? '48%' : $sld === 4 ? '66%' : '0')};
+        left: unset;
+    }
 `;
 
 export const LineButtons = styled.div`
@@ -162,6 +202,12 @@ export const LineButtons = styled.div`
     display: flex;
     justify-content: center;
     z-index: 999;
+
+    
+    @media (max-width: 600px) {
+
+        bottom: -5%;
+    }
 `;
 
 export const ContainerButtons = styled.div`
@@ -187,6 +233,13 @@ export const LineButton = styled.div`
     &:hover {
 
         transform: scale(1.2);
+    }
+
+    @media (max-width: 600px) {
+
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
     }
 `;
 

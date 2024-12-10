@@ -14,14 +14,25 @@ import {
 } from "./MeElements"
 import TitleSection from '../../TitleSection'
 import g3 from '../../../images/Logog3code.webp'
+import Aos from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from 'react'
 
 const Me = () => {
+
+        
+    useEffect(() => {
+
+        Aos.init({ duration: 1000 });
+
+    }, []);
+
   return (
 
     <MeBox id="me">
         <MeContainer>
             <ContainerImg>
-                <MeImg src={g3} alt='Logo da empresa G3 Codee'/>
+                <MeImg data-aos="zoom-out-down" src={g3} alt='Logo da empresa G3 Codee'/>
             </ContainerImg>
             <ContainerText>
                 <TextBox>
