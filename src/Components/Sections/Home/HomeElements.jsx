@@ -147,6 +147,7 @@ export const Title = styled.h1`
 
         font-size: 90px;
     }
+
 `;
 
 export const Description = styled.p`

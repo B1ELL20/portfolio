@@ -148,6 +148,7 @@ export const ContainerImg = styled.div`
     justify-content: center;
     align-items: center;
     width: 40%;
+    overflow: hidden;
 
     @media (max-width: 600px) {
 

@@ -32,12 +32,12 @@ const Me = () => {
     <MeBox id="me">
         <MeContainer>
             <ContainerImg>
-                <MeImg data-aos="zoom-out-down" src={g3} alt='Logo da empresa G3 Codee'/>
+                <MeImg data-aos="zoom-out-down" data-aos-offset='300' src={g3} alt='Logo da empresa G3 Codee'/>
             </ContainerImg>
             <ContainerText>
                 <TextBox>
                     <TitleSection color={0} text={'Sobre a G3'}/>
-                    <Text>Voltada ao trabalho de excelência e produtividade, tem como foco principal o desenvolvimento de sites, mas também atua com outros serviços. Vem a 2 anos executando trabalhos de qualidade e eficiência.</Text>
+                    <Text>Voltada ao trabalho de excelência e produtividade, tem como foco principal o desenvolvimento de sites, mas também atua com outros serviços digitais. Vem a 2 anos executando projetos de qualidade e eficiência.</Text>
                 </TextBox>
                 <Card>
                     <CardItem>

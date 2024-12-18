@@ -21,7 +21,7 @@ export const ProjectsBox = styled.section`
     background-image: url(${back});
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px 0px;
+    padding: 50px 0px 100px 0px;
 
     @media (max-width: 600px) {
 
@@ -99,6 +99,19 @@ export const SlideBox = styled.div`
 
         flex-direction: column;
     }
+
+    
+    @media (min-width: 601px) and (max-width: 912px) {
+
+        width: 90%;
+        margin: auto;
+    }
+
+    @media (min-width: 913px) and (max-width: 1200px) {
+
+        width: 90%;
+        margin: auto;
+    }
 `;
 
 export const ProjectsLine = styled.div`
@@ -126,7 +139,7 @@ export const RowProject = styled.div`
 
     box-shadow: 0px 0px 0px white;
     border-radius: 10px;
-    border: 4px solid ${colors.contrast};
+    //border: 4px solid ${colors.contrast};
 
     transition: 0.5s;
     cursor: pointer;

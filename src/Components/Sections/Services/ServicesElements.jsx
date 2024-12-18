@@ -46,7 +46,7 @@ export const Service = styled.div`
     @media (min-width: 601px) and (max-width: 912px) {
 
         width: 55%;
-        height: 300px;
+        height: 350px;
         margin-bottom: 50px;
     }
 

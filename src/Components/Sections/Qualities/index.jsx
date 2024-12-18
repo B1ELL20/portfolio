@@ -26,14 +26,14 @@ const Qualities = ({ reverse, img, top, mid, desc, alt }) => {
 
     <QualitiesBox>
         <QualitiesContainer reverse={reverse}>
-            <QualitiesDivision data-aos="fade-down">
+            <QualitiesDivision data-aos="fade-down" data-aos-offset='250'>
                 <TextBox>
                     <TopTitle>{top}</TopTitle>
                     <MidTitle>{mid}</MidTitle>
                     <DescServ>{desc}</DescServ>
                 </TextBox>
             </QualitiesDivision>
-            <QualitiesDivision data-aos="fade-up">
+            <QualitiesDivision data-aos="fade-up" data-aos-offset='250'>
                 <QualitiesImg src={img} alt={alt}/>
             </QualitiesDivision>
         </QualitiesContainer>
